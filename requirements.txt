@@ -1,5 +1,6 @@
 streamlit
-langchain>=0.1.0
+langchain-community
 groq
 PyPDF2
 unstructured
+

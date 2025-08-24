@@ -1,6 +1,5 @@
 streamlit
+langchain>=0.1.0
 groq
-langchain
-
-
-
+PyPDF2
+unstructured

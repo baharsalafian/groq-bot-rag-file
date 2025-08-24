@@ -2,3 +2,4 @@ streamlit==1.24.0
 groq==0.31.0
 langchain==0.3.27
 python-dotenv
+pillow>=10.0.0

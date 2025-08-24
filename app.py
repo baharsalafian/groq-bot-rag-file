@@ -27,7 +27,7 @@ model = st.sidebar.selectbox(
     'Choose a model', ['Llama3-8b-8192', 'Llama3-70b-8192','Mixtral-8x7b-32768','Gemma-7b-It']
 )
 
-st.title("💬 RAG Multi-Turn Chat with Groq's LLM")
+st.title("💬 Upload the Resume and Ask Questions")
 
 # -----------------------
 # Document upload
@@ -91,3 +91,4 @@ if prompt := st.chat_input("Enter your question:"):
     st.session_state.history[-1]["response"] = response
     with st.chat_message("assistant"):
         st.markdown(response)
+
